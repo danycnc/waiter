@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Table" ALTER COLUMN "sessionID" DROP NOT NULL,
+ALTER COLUMN "status" SET DEFAULT true;

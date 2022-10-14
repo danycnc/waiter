@@ -18,7 +18,7 @@ const FirstStep = () => {
     <div>
       <StepTracker currentStep={1} />
       <div className='flex flex-col items-center gap-32'>
-        <h3 className='text-3xl'>How many people are you?</h3>
+        <h2 className='text-3xl'>How many people are you?</h2>
         <div className='flex gap-5'>
           <button
             className='bg-slate-300 px-6 py-3 box-border w-24 rounded-full text-2xl'
@@ -41,6 +41,7 @@ const FirstStep = () => {
           <button
             className='bg-red-500 text-white'
             onClick={() => navigate('/')}>
+            <i className='fa-solid fa-chevron-left text-sm pr-2' />
             Go back
           </button>
           <button

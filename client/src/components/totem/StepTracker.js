@@ -3,7 +3,7 @@ const StepTracker = ({ currentStep = 0 }) => {
   const active = `${inactive} bg-yellow-400`;
 
   return (
-    <div className='flex justify-center gap-32 mb-48'>
+    <div className='flex justify-center gap-32 mb-40'>
       <span id='first' className={(currentStep === 1 && active) || inactive}>
         1
       </span>
